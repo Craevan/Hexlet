@@ -35,7 +35,7 @@ public class Solution {
         System.out.println(number + " : " + fib(number));
     }
 
-    private static int fib(int number) {
+    public static int fib(int number) {
         for (int i = CACHE.size(); i <= number; i++) {
             int result = CACHE.get(i - 1) + CACHE.get(i - 2);
             CACHE.add(result);
