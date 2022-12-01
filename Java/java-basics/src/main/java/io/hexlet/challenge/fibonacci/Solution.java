@@ -22,7 +22,7 @@ public class Solution {
         while (!isCorrect) {
             try {
                 number = Integer.parseInt(reader.readLine());
-            } catch (IOException e) {
+            } catch (NumberFormatException | IOException e) {
                 System.out.println("Необходимо ввести число");
             }
             if (number >= 0) {
