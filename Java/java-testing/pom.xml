@@ -23,9 +23,6 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-
-    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
